@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "snaplook",
+  "version": "1.0.0",
+  "name": "Snaplook",
+  "description": "Hold or toggle a keybind to snap to a specific camera perspective, just like Lunar Client's Snaplook mod.",
+  "authors": ["You"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.snaplook.SnaplookMod"
+    ]
+  },
+  "mixins": [
+    "snaplook.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "fabric-api": "*",
+    "minecraft": ">=26.1.1"
+  }
+}
